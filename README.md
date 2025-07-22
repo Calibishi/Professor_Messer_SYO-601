@@ -31,7 +31,7 @@ Control Types:
 - Corrective.
 - Directive
 
-# 1.2 CIA Triad 
+# 1.2 CIA Triad (7/22)
 
 - Confidentiality - stop the release of information before/early.
 - Integrity - Messages cannot be changed without knowing.
