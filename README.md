@@ -30,3 +30,10 @@ Control Types:
 - Detective.
 - Corrective.
 - Directive
+
+# 1.2 CIA Triad 
+
+- Confidentiality - stop the release of information before/early.
+- Integrity - Messages cannot be changed without knowing.
+- Availability - Networks and systems must be running and up.
+
