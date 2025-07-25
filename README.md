@@ -31,9 +31,43 @@ Control Types:
 - Corrective.
 - Directive
 
-# 1.2 CIA Triad (7/22)
+# 1.2 CIA Triad (7/22 & 7/25)
 
 - Confidentiality - stop the release of information before/early.
 - Integrity - Messages cannot be changed without knowing.
 - Availability - Networks and systems must be running and up.
 
+- Maintaining confidentiality.
+  -> Encryption. Encoding messages.
+  -> Acces controls. Restricting access to a source.
+  -> Multi-Factor Authentification.
+
+- Providing Integrity. No mods.
+  -> Hashing.
+  -> Digital Signatures (w/Hashing).
+  -> Certificates.
+  -> Non-repudiaiton.
+
+- Availability of Systems.
+  -> Redundancy.
+  -> Information always at fingertips.
+  -> Fault tolerance. System will continue on! even after a failure.
+  -> Patching. Managing and updating, stability, close security holes.
+
+# 1.2 Non-Repudiation
+  -> "Proving someone did something, such that they can't deny it after."
+
+- Verifying information. Crytopgraphy. Your signature add non-repudiation.
+
+- Proof of Integrity.
+  -> crytographic hash. If the data changes, so does the hash.
+  -> Only tells if the data has changed not the person writing it. Will talk about later how to check that.
+
+- Hashing example of the Gutenbery Encyclopedia.
+  -> The hash completely changes with one, single character change.
+  -> Anyone change changes the hash.
+
+- Proof of Origin.
+  -> Ex: a signature. could be digital.
+  -> Verifying public keys with digital signatures. Blockchain?
+  -> Hashing private keys, decrypting  using public keys.
