@@ -71,3 +71,25 @@ Control Types:
   -> Ex: a signature. could be digital.
   -> Verifying public keys with digital signatures. Blockchain?
   -> Hashing private keys, decrypting  using public keys.
+
+# 1.2 AAA - Authentification, Authorization, & Accounting
+
+- Starts with Identification.
+- Authentication.
+  -> Prove you are who you are. Passwords & other authen. techniques.
+- Authorization - Now you're verified, what access do you have?
+- Accounting - Logs. Login time, data sent and received, logout time.
+
+- Triple A Servers.
+
+- How do we truly authenticate?
+  -> Oftentimes, businesses put a digitaly signed cert on the device, checked during login.
+
+- Creating Authen.
+  -> Creates a certificate for device and digitally signs the cert with the organization's Certificate Authority (CA).
+
+- Authorization Models.
+  -> AKA Abstraction. Different groups with different sets of rights and permissions. Essentially, this is OO class logic.
+  -> No authorization model doesn't scale well.
+    -+ Manually setting up rights and permissions would be difficult.
+  
