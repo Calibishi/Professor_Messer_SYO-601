@@ -72,7 +72,7 @@ Control Types:
   -> Verifying public keys with digital signatures. Blockchain?
   -> Hashing private keys, decrypting  using public keys.
 
-# 1.2 AAA - Authentification, Authorization, & Accounting
+# 1.2 AAA - Authentification, Authorization, & Accounting (7/26)
 
 - Starts with Identification.
 - Authentication.
