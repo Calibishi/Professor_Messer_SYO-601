@@ -92,4 +92,17 @@ Control Types:
   -> AKA Abstraction. Different groups with different sets of rights and permissions. Essentially, this is OO class logic.
   -> No authorization model doesn't scale well.
     -+ Manually setting up rights and permissions would be difficult.
-  
+
+# 1.2 Gap Analysis (8/2)
+
+- Where you are compared with where you want to be.
+- Work towards a baseline.
+  -> May be formal standards like NIST or ISO/IEC.
+  -> Evaluate people and process.
+
+- Comparison, weaknesses, & detailed analysis.
+
+- The final analysis report.
+- Path to get from current security to goal (security).
+
+
