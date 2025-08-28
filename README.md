@@ -123,7 +123,12 @@ Control Types:
 
 - Physical Barriers / Bollards, can funnel traffic through a certain point + protect from vehicles and collisions
 - Access Control Vestibules, could be a badge reader room and could lock/unlock various other room depending on setup.
--
-- Lighting
-- Video Surveillance, could be CCTV (Closed cirucit
+- Fencing, barbed, bridge to cross to destination, see through fence or opaque.
+- Lighting, Well lit areas deter criminals.
+- Video Surveillance, could be CCTV (Closed Circuit Television), Features matter.
+  -> Object Detection, Infared, Multiple Cameras networked together.
+- Guards / Access Badges
+- Sensors, Infared, Pressure, Microwave, Ultrasonic (detecting sound waves)
+
+-  
   
