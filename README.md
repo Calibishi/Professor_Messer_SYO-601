@@ -119,4 +119,11 @@ Control Types:
     -> Policy Decision Point.
       -> Policy Engine and Policy Administrator.
 
+# Physical Security (8/28)
+
+- Physical Barriers / Bollards, can funnel traffic through a certain point + protect from vehicles and collisions
+- Access Control Vestibules, could be a badge reader room and could lock/unlock various other room depending on setup.
+-
+- Lighting
+- Video Surveillance, could be CCTV (Closed cirucit
   
