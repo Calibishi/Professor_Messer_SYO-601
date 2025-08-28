@@ -101,8 +101,22 @@ Control Types:
   -> Evaluate people and process.
 
 - Comparison, weaknesses, & detailed analysis.
-
 - The final analysis report.
 - Path to get from current security to goal (security).
 
+  # 1.2 Zero Trust (8/27)
 
+- Many networks used to be relatively open on the inside.
+- applying the zero-trust model, we use multi-factor auth, verification of identify via fingerprint, also encryption, system permissions, etc.
+
+- Data Plane vs. Control Plane, C plane manages and directs the processes of the data plane which process packets, frames, and network data.
+  -> Physical architecture.
+
+- Adaptive Identity, Threat reduction control, Policy-driven access control
+
+- Security Zones, trusted and untrusted traffic.
+  -> Policy Enforcement Point.
+    -> Policy Decision Point.
+      -> Policy Engine and Policy Administrator.
+
+  
