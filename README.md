@@ -128,7 +128,19 @@ Control Types:
 - Video Surveillance, could be CCTV (Closed Circuit Television), Features matter.
   -> Object Detection, Infared, Multiple Cameras networked together.
 - Guards / Access Badges
-- Sensors, Infared, Pressure, Microwave, Ultrasonic (detecting sound waves)
+- Sensors, Infared, Pressure, Microwave, Ultrasonic (detecting sound waves), facial recognition.
 
--  
+
+# Deception and Disruption (1/5/26)
+
+- Honeypots, honeynets, honeyfiles, honeytoken (traceable data!)\
+
+
+# Change Managment
+
+- Formal Process: request, purpose, scope, schedule, systems affected, risk, approval, test.
+- Impact analysis.
+- Sandbox Testing Environment
+
+
   
