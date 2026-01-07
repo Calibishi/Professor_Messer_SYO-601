@@ -141,6 +141,209 @@ Control Types:
 - Formal Process: request, purpose, scope, schedule, systems affected, risk, approval, test.
 - Impact analysis.
 - Sandbox Testing Environment
+- Legacy Applications (no longer supported by developer).
+- Dependencies
+- Version Control
 
 
-  
+# Public Key Infrastructure (PKI) [1/6/26]
+
+- policies and procedures associated w/ Digital Certificates.
+- Certificate Authority.
+- Symmetric Encryption - encrypt and decrypt with the same key.
+  -> Doesn't scale well.
+  -> Very Fast, however.
+  -> Usually used together with Asymmetric E.
+- Asymmetric Encryp - Two or more mathematically related keys.
+  -> Private and public key.
+    -{ The private key decrypts.
+    -{ Cannot derive the private key from the public key.
+  -> Everyone who has public key can excrypt the data using the public key.
+  -> PGP / GPG
+  -> Ex: Asymmetric Software, Ciphertext, Encrypted Data
+
+
+# Encrypting Data
+
+[ E / e = encryption]
+
+- Ecrypting Data at rest
+- Full Disk - BitLocker, FileVault, File e - EFS
+- Transparent and Record-Level E
+- Column-Level E
+- VPN
+- Encryption Algorithms, agreed upon before, compatibility.
+- Cryptographic Keys
+  -> Larger keys, more security.
+  ->128-bit or larger symmetric keys, currently common.
+- Key Streching: perform the encryption process multiple times (hash-slinging-slash-hashing slasher
+
+
+# Key Exchange
+
+- Out-of-band key exchange: exchanging the key without the 'net.
+- In-band key exchange: sent over the network (faster).
+- Symmetric session keys
+- Public and Private key cryptography
+
+
+# Encryption Technologies
+
+- TPM - Trusted Platform Module: key generators.
+- Large scale -> HSM - Hardware Security Modules, thousands of crypto-keys.
+- Cryptographic accelerators.
+- Key Management System, one centralized manager
+- SSL/SSH/TLS Keys
+- Secure Onclave - separate processor soley for protecting data.
+  -> boot ROM
+  -> True RNGenerator
+  -> AES encryption
+  -> root crypto keys & more.
+
+
+# Obfuscation (w/ Stenography)
+
+- Process of making something unclear/ hard to understand.
+- like hiding objects in plain sight.
+- Steganography - Greek for "Concealed Writing."
+  -> hiding text in images (invisible)
+  -> Network based: embed messages in TCP packets.
+  -> Invisible watermarks: yellow dots on printers.
+    -{In EKGs lol -}, Video, Audio Steg
+  -> Tokenization.
+    -{Take sensative data and replace it w/ non-sensative placeholder}
+      -[ Credit Card Processing]
+    -{Remote Token Service Servers}
+  -> Data Masking - like hiding the Credit Card number on receipts.
+
+
+# Hashing and Digital Signatures
+
+- Cryptographic Hash, verification/integrity for downloaded documents.
+- Digital Signatures used for authentication, non-repudiation, and integrity.
+  -> non-repudiation: ensures that someone involved cannot deny receiving or sending information because their digital fingerprint is on it.
+- SHA256 hash
+  -> 256 bits / 64 hexa characters.
+- Hash functions.
+  > Collision: Different input into hashing alogorithm, but the same output hash.
+    {Example with MD5, don't use this hashing algorithm).
+- Salted Hashes, adding additional information (random salt).
+- Rainbow Tables - reverse engineering hashing, doesn't work with salted hashes.
+- Verifying digital signatures.
+
+
+# Blockchain Technology
+
+- Distributed Leger (Cryptocurrencies)
+- Everyone on blockchain network maintains the ledger.
+- Many uses.
+
+
+# Certificates
+
+- Contains public key and digital signature.
+- Trust.
+  > Certificates provide additional trust.
+  > Web of Trust. Say if a trusted friend signs/approves something.
+- Clicking the lock in web browser.
+   > View Certificate -> X.509 Standardized Format (Certificate Details).
+- Root of Trust.
+- Ceritifcate Authorities (CA)
+- Built-in CAs into any browser.
+- Public vs. Internal CAs
+- Subjest Alternative Name (SAN)
+  > Wildcard domains.
+- Certificate Revocation List (CRL) - certificated that have been revoked.
+- OCSP stapling - Online Certificate Status Protocol.
+  > sending status messages into SSL/TLS handshakes, with digital CA.
+
+
+# Threat Actors (who did it?)
+
+- Internal or External
+- Resources/funding
+- Level of Sophistication/capability
+- What are the motivations? Their Purpose.
+  > Motivations: Espionage, Competitiors, Blackmail, Financial, etc
+- APT: Advanced Persistent Threat.
+  > Stuxnet Rabbit hole example.
+- Pre-made scripts, unskilled attackers.
+- Hacktivist - hacker activist.
+- Insider Threats
+- Professional Threats
+- Shadow IT
+  > IT gone rouge.
+
+
+# Threat Vector (Attack Vectors)
+
+- Common to start with messenging systems like email with malicous links (phishing).
+- SMS (Short Message Service)
+- Social Engineering Techniques
+  > Invoice scams,
+- Image-based Vectors, SVG in XML (Scalable Vecotr Graphic) could put HTML, Javascript that has malicous code.
+  > Cross-site scripting attacks.
+  > XML embedding.
+- Infected Executables in file format, PDFs
+- ZIP/RAR files
+- Vishing - Voice phising
+- Spam over IP
+- War Dialing, unpublished phone numbers
+- Call Tampering, disrupting voice calls.
+- Removable device vectors
+  > malicious software on usb flash drives.
+  > air-gapped networks.
+  > leaving usb drives in public places.
+- Agentless vulnerable software vectors.
+- Unsupported System Vectors.
+  > Patching.
+  > Always update the list of devices and OSes with access.
+- WPA3 PRotocol is latest security protocol atm.
+- Wired - No 802.1X
+- Bluetooth
+- Open Service Ports
+- More services you have to install, more "open ports."
+- Firewalls.
+- Default Credentials on most devices.
+  > Always change the default username and passwords.
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
