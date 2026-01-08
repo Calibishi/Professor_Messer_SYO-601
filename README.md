@@ -136,7 +136,7 @@ Control Types:
 - Honeypots, honeynets, honeyfiles, honeytoken (traceable data!)\
 
 
-# Change Managment
+# Change Management
 
 - Formal Process: request, purpose, scope, schedule, systems affected, risk, approval, test.
 - Impact analysis.
@@ -307,7 +307,55 @@ Control Types:
 - Default Credentials on most devices.
   > Always change the default username and passwords.
 
-#
+
+# Phishing
+
+- Social engineering with a dab of spoofing
+  > email, text, etc.
+- Usually something is off.
+- Spoofed emails, financial fraud, malicous links
+- Typosquatiing (be careful with URLs)
+- Lying, asta.
+- Vishing/Smishing
+- Bunch of scams.
+
+
+# Impersonation
+
+- Identity Fraud.
+- Prevention
+  > Never volunteer information.
+  > Don't disclose personal details over the phone.
+  > Verify the person yourself.
+    -{ Check the phone number is the same as the public one for the company.
+
+
+# Watering Hole Attack
+
+- Using a website or server and compromising it.
+- The attacker could be find a commonly visited site that target uses and infect it.
+- Hence, it's like infecting a watering hole and poising those who drink from it.
+- Prevention: Defence-in-depth
+
+
+# Other Social Engineering Techniques
+
+- Making Misinformation/Disinformation
+- To sway public opinion.
+- Advertising.
+- Often through Social Media.
+  > Could be an account with fake followers.
+  > This will trigger the popularity algorithm and have it spread over the platform.
+- Brand Impersonation.
+
+
+# Memory Injections
+
+- Malware runs in memory.
+  > memory contatins many running processes.
+    -{DLLs (Dynamic Link Libraries), Threads, Buffers, Memory management functions, & much more}
+  > malware runs it's own process or inject itself into the middle of a process.
+-  .... Between starting address and Ending Address, Malicious DLLs on the disk ....
 
 
 
