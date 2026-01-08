@@ -518,6 +518,53 @@ Control Types:
 
 # Viruses and Worms
 
+- Malware that can replicate itself.
+  > through file systems or network.
+  > Some are invisible: run in the background.
+  > Update the signature file up to date.
+- Program Viruses, Boot sector viruses, Script Viruses, Macro Viruses, Fileless Virus.
+- Worms can get bad quick.
+  > Wannacry worm example.
+
+
+# Spyware and Bloatware
+
+- Spyware: malware that spies on you.
+  > Browser monitoring,
+  > Keyloggers: capture every stroke and send them back o the attacker.
+- Maintain AV/AM (Anti-Virus/Anti-Malware)
+- Always reasearch the applications or anything you download.
+- Bloatware: With new devices/systems, these are apps installed by the manufacturer.
+  > Takes up storage,
+  > Could make system slower,
+  > Any application could be exploited.
+  > Solution: remove it, if you can, or run an uninstall the software somehow. Find a way lol. Use 3rd party uninstallers as a last resort.
+
+
+# Other Malware Types
+
+- Keyloggers
+  > Can store clipboard info, screenshots, instant messaging, and search engine queries.
+  > RAT - Remote Access Trojan.
+- Logic bomb: Waits for a predefined event or time (Time bomb).
+  > South Korea, 2013, bank email with attachment that activated at a specific time.
+  > Difficult to find.
+- Can be prevented with monitoring tools to look at key files for changes.
+  > Alert on changes, constant auditing.
+- Rootkit: (from Unix) hides in the kernel of the OS.
+  > Won't see it in Task Manager since it's in OS.
+  > Hard to see, hard to stop.
+  > solution: standalone rootkit removal tools, only used after infection.
+  > solution: secure boot with UEFI.
+    -{ Will look for an OS signature and see if anything has changed and stop it from running if it finds anything}
+
+
+# Physical Attacks (J)
+
+- Old school.
+- Someone with physical access can get full control.
+- "Door locks only keep out honest people." C'est Vrai.
+- 
 
 
 
