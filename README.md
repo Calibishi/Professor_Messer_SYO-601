@@ -358,10 +358,109 @@ Control Types:
 -  .... Between starting address and Ending Address, Malicious DLLs on the disk ....
 
 
+# Buffer Overflows [Attacks] (1/8/26) 
+
+- An attacker writes more than expected into another section of memory.
+  > Developers need to perform bounds checking (8 bytes for 8 byte sections).
+- Attacker is looking for a repeatable overflow function that give advantages like rights and permissiions.
 
 
+# Race Conditions
+
+- Unplanned things/processes running at the same time.
+  > TOCTOU - Time-of-check to time-of-use attack
+  > Mars rover "Spirit" race condition (January 2004)
+    -{ Developers sent additional code to fix it while still on Mars!}
 
 
+# Malicious Updates
+
+- Always keep OS and applications up to date.
+- ALWAYS have a good back up.
+  > Back up often.
+- Downloads updates directly from developers site, not 3rd party websites.
+- Automatic updates are good, including checks and digital signatures.
+  > Can still contain malicious software.
+  > SolarWinds Orion attack from infaltrating a companies software and planting malware in their automatic updates.
+    -{ Attackers gained access to multiple government agencies and companies}
+
+
+# Operating Systems
+
+- Big target for attackers.
+- Pretty Complex.
+  > AKA more security vunerbilites since there's so much code.
+- Patch Tuesday (Windows)
+- Best practice: Make sure you have a backup before downloading/updating/patching.
+  > If updating multiple systems, use a testing environment and have backups.
+
+
+# SQL Injection (SQLi)
+
+- Added malware due to improperly programmed input and output.
+- Put your own SQL requests in an existing app.
+- Example: "SELECT * FROM user WHERE '1' = '1'"
+  > IOW, show me everything.
+- WebGoat - application that is made to have vulnerabilities (good practice).
+
+
+# Cross-site Scripting (XSS)
+
+- Vulnerabilities across multiple browsers
+- Often done in JavaScript.
+- Legitimate website + malware that send info back to the attacker.
+- Persistent (Stored) XSS attack.
+  > Such as a SM post on FaceBook.
+- Example: June 2017, Subaru, A token that never expires, found by Security researcher.
+- Consider limiting or disabling JavaScript.
+- If you're an App developer,
+  > Make sure that you check that your inputs are validated so that a user cannot add their own script.
+
+
+# Hardware Vunerabilities
+
+- Garage Doors, Light bulbs, door locks, refridgerator, etc.
+  > Everything connected to the network.
+- Firmware - OS of the hardware device.
+  > Usually only updated by Vendors.
+- EOL: End-of-Life
+  > Manufacturer stops selling, stops supporting/updating.
+    -{ Probably time to get a new device.]
+- EOSL: End-of-service-life - MORE URGENT than EOL.
+- Legacy devices - older OS, apps, middleware, EOL software.
+  > May add additional firewalls, IPS signatures, security.
+
+
+# Virtualization Security (beauty)
+
+- Virtual Machines.
+- Not possible to move from on VM on a hypervisor to another VM on a hypervisor, unless huge vulnerabilities. Usually difficult, but of course not impossible.
+- Hypervisor are the virtual "pretend" hardware that VMs run off of like VirtualBox and VMWare, these are pretty complex.
+- Resource Reuse
+  > Hypervisor allocates resources, memory could be shared (6GB over 3 VM (2GB each) with 4 real GB).
+    -{ The reason why we can go over is because
+      1) The VM is allowed up 2GB for ex, but not all of it is usually used all at once.
+      2) If there are all used simultaneously, then some memory will just be written on the disk, which will make things a bit slower.
+
+
+# Cloud-specific Vunerabilities
+
+- DoS - Denial of Service (DDos - Distributed...)
+  > an attack when you bombart a system, service, or network with an overflow of requests or traffic, making it unavailiable.
+  > DDoS is just with multiple distibuted devices versus a single device.
+- Authentication bypass
+- Directory traversal
+- Remote Code Execution
+- XSS could be used if not patched / input validated.
+- Out of bounds writing.
+- Rabbit hole with trying to fix DoS attacks, having both public and private networks, VPNs, firewalls, and NAT (Network Address Tranlation).
+  > NAT is what blocks unsolicited traffic by dropping packets that do match an existing outbound connection in the translation table.
+    -{ NAT asks “does this packet match a connection that was initiated from inside?”}
+
+
+# Supply Chain Vulnerabilites
+
+-
 
 
 
