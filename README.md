@@ -471,10 +471,10 @@ Control Types:
 - Open permissions.
 - Linux root / Windows Admin
 - Some protocols are not encrypted:
-  >Telnet
-  >FTP
-  >SMTP
-  >IMAP
+  > Telnet,
+  > FTP,
+  > SMTP,
+  > IMAP.
 - How to check? View the packet capture.
 - Use encrypted versions (SSH, HHTPS, SFTP, IMAPS, etc.)
 - Wall of Sheep at DEF CON.
@@ -502,15 +502,15 @@ Control Types:
 # An Overview of Malware
 
 - Any software that is bad.
-  > Viruses
-  > Worms
+  > Viruses,
+  > Worms,
   > Ransomeware, attacker encryts all data on system, often request money in exchange.
-  > Trojan Horse
-  > Rootkit
-  > Keylogger
-  > Spyware
-  > Bloatware
-  > Logic Bomb
+  > Trojan Horse,
+  > Rootkit,
+  > Keylogger,
+  > Spyware,
+  > Bloatware,
+  > Logic Bomb,
 - Always have a backup.
   > Rabbit hole with HDD/SSD, bootable clone, which drives to get and how Time Machine / bootable clones actually work.
 - Anti-virus / Anti-Malware for systems.
