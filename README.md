@@ -640,8 +640,8 @@ Control Types:
   > ARP poisoning (spoofing), attacker must be on the same subnet.
     -{ARP doesn't have an authentication for the intended device, hence this attack.}
 - On-path browser Attack.
-  -> Malware configured as a proxy, can redirect traffic being sent and requested.
-  -> Waits for login infor and then exploitation.
+  > Malware configured as a proxy, can redirect traffic being sent and requested.
+  > Waits for login info. and then exploitation.
 
 
 
