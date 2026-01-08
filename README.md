@@ -564,8 +564,84 @@ Control Types:
 - Old school.
 - Someone with physical access can get full control.
 - "Door locks only keep out honest people." C'est Vrai.
-- 
+- Brute Force (physically).
+- RFID: Cloning (Radio Frequency Identification)
+  > Low frequencey, electromagnetism, reflecting radiowaves back.
+  > Access Badges,
+  > Key fobs,
+  > Duplicators are on Amazon for < $50 lol.
+  > One solution is MFA (Multi-factor-authentication)
+- Environmental attacks
+  > Power outage.
+  > HVAC control system.
+  > Fire suppression w/potential DoS.
 
+
+# DoS (Denial of Service)
+
+- Attacker forces a service to fail.
+  > Via Overloading system,
+  > Exploiting a design failure or vuln,
+  > Could be a distraction/smokescreen for other nefarious activities,
+  > Could be a power outage simply.
+- Network DoS
+  > Layer 2 loop with STP (unintentional closed loop),
+- Bandwidth DoS,
+- Unintentional DoS
+- DDoS: Distributed Denial of Service.
+  > Army of computers, traffic spike, botnets.
+    -{ Thousands/millions}
+    -{ Zues example}
+- DDoS reflection and amplification.
+  > NTP, DNS (uses the 'dig' command), ICMP protocols.
+- Botnet Command and Control -> Botnets -> Open DNS resolver (for ex) -> Huge output then sent to the server.
+
+
+# DNS Attacks
+
+- DNS poisoning.
+  > Could cause user to visit unintentional IP address.
+  > Some include modifying DNS server itself (though pretty difficult/protected).
+  > Modify the client host file with permissions.
+  > Sit in the middle of DNS query request, requires a redirection of the request [on-path attack].
+- DNS spoofing/poisoning.
+  > Via exploiting the OS of administrative access to the DNS server, the attacker will change the destination to their IP address and route the user's request to them attacker.
+- Domain Hijacking.
+  > Access domain registration, where the traffic is controlled.
+- URL Hijacking.
+  > Advertising, redirect for adverts for revenue stream.
+  > Could sell the misspelled domain name to the domain name owner.
+  > Redirect traffic to a competitior.
+  > Phishing site for login credentials.
+  > Infect w/ drive-by download.
+  > Typosquatting/brandjacking.
+  > Different top-level domain: .com versus .org
+
+
+# Wireless Attacks
+
+- Dropped Wireless Networks
+  > Wireless Deauthentication, significant wireless DNS attack.
+  > 802.11 management frames (vulnerability)
+  > "in the clear" = NOT encrypted
+  > Need to know the Mac Address / Hardware Wifi Address.
+  > IEEE has addressed this with 802.11ac and newer.
+  > RF jamming (Radio frequency)
+    -{ Prevents wireless communication from anyone nearby by decreaing the signal-to-noise ratio at the receiving device. Receiver can't hear the good signal (send or receive traffic}
+    -{ Constant, random bits, legit frames, reactive jamming, random times.}
+    -{ Attacker is nearby, get ready for the fox hunt, attenuator, directional antenna.}
+
+
+# On-Path Attacks
+
+- Allows attacke to sit in the middle of two devices
+  > Man-in-the-middle attack.
+  > Both parties would have no idea, mostly.
+  > ARP poisoning (spoofing), attacker must be on the same subnet.
+    -{ARP doesn't have an authentication for the intended device, hence this attack.}
+- On-path browser Attack.
+  -> Malware configured as a proxy, can redirect traffic being sent and requested.
+  -> Waits for login infor and then exploitation.
 
 
 
