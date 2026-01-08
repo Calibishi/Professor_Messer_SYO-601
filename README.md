@@ -466,6 +466,58 @@ Control Types:
 - Verify digital signatures.
 
 
+# Misconfiguration Vulnerabilities
+
+- Open permissions.
+- Linux root / Windows Admin
+- Some protocols are not encrypted:
+  >Telnet
+  >FTP
+  >SMTP
+  >IMAP
+- How to check? View the packet capture.
+- Use encrypted versions (SSH, HHTPS, SFTP, IMAPS, etc.)
+- Wall of Sheep at DEF CON.
+- Default configurations and passwords.
+  > Mirai botnet, over 60 default configs.
+  > Open source, used by attackers and researchers.
+- Services mean open ports
+  > Crack in the doorway of access.
+
+
+# Mobile Device Vulnerabilities
+
+- Jailbreaking (MacOS) / Rooting (Andriod)
+  > More features but less security.
+  > Often not allowed.
+- Sideloading apps through jailbroken/rooted systems without an app store.
+
+
+# Zero-Day Vulnerabilities
+
+- Means unknown vulnerabilites that have not been patched/ methed of mitigation
+  > cve.mitre.org (Common Vulnerabilities and Exposures)
+
+
+# An Overview of Malware
+
+- Any software that is bad.
+  > Viruses
+  > Worms
+  > Ransomeware, attacker encryts all data on system, often request money in exchange.
+  > Trojan Horse
+  > Rootkit
+  > Keylogger
+  > Spyware
+  > Bloatware
+  > Logic Bomb
+- Always have a backup.
+  > Rabbit hole with HDD/SSD, bootable clone, which drives to get and how Time Machine / bootable clones actually work.
+- Anti-virus / Anti-Malware for systems.
+
+
+# Viruses and Worms
+
 
 
 
