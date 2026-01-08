@@ -644,8 +644,39 @@ Control Types:
   > Waits for login info. and then exploitation.
 
 
+# Replay Attacks:
+
+- Needs information that can be replayed:
+  > Via Network tap, ARP poisoning, or malware.
+  > May be used with on-path attack.
+- Pass the hash bruv (replay attack).
+  > During authentication process.
+  > Attacker captures username and hashed password.
+    -{ Now attacker has access to the user's account.}
+  > One solution: encryption accross the network and salted hashes.
+- Browser cookies and session IDs.
+  > Files that store information on computer by the browser.
+  > Session IDs, Session Hijacking.
+    -{ The attacker would use this ID to make the Web server think that it it the user visiting the site instead of the (actual) attacker.
+- Header manipulation.
+  > Packet Capture via Wireshar, Kimet and others.
+  > Modify headers.
+  > Modify cookies.
+- Prevent session hijacking: Encrypt everything with something like HTTPS.
+  > Encryption end-to-end.
+  > Encryption end-to-somewhere (Personal VPN).
 
 
+# Malicious Code
+
+- Executables, scripts, macro viruses, worms, Trojan horses, etc.
+- Needs strong defences:
+  > AM,
+  > Firewalls,
+  > Continuous updates and patches
+  > Secure Computing habits.
+
+#
 
 
 
