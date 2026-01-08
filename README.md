@@ -460,7 +460,13 @@ Control Types:
 
 # Supply Chain Vulnerabilites
 
--
+- Supply chain has many moving parts.
+  > The physical hacking, per se, could happen.
+- Always presume that there is some security risk, vet accordingly.
+- Verify digital signature.
+
+
+
 
 
 
