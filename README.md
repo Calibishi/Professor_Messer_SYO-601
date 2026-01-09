@@ -774,13 +774,82 @@ Control Types:
   > Compliance, mandated segmentation by Compliance company.
 - Access control lists (ACLs)
   > Allow or disallow traffic.
-  > Restric access to network devices.
+  > Restrict access to network devices.
+  > used by many OS
+- Application allow list / deny list.
+- Application hash.
 
 
+# Mitigation Techniques
+
+- Patching.
+  > Auto update might not be best. Should be tested.
+- Encryption.
+- File level encryption.
+- Full disk encryption (FDE)
+  > Bitlocker, FileVault, wtc.
+- Application Data Encryption.
+  > Manages by app, stored data protected.
+- Monitoring and Logs
+  > Built-in sensors, separate devices.
+  > Collectors, SIEM consoles.
+- Least Privilege.
+  > Rights and permissions should be set to the bare minimum.
+  > All user accounts must be limited.
+- Configuration Enforcement.
+  > Posture Assessment, each time a device connects.
+  > OS patch version, EDR (Endpoint Detection and Response)
+  > Certificate status.
+  > Systems out of compliane are quarantined.
+- Decommissioning old equipment.
+  > Hard drive.
+  > SSD
+  > USB drives.
+  > Recycle / Destroy device and drives.
 
 
+# Hardening Techniques
+
+- System hardening.
+  > Always include security updates.
+  > User Accounts secured by (at least) passwords.
+  > Account limitations.
+  > Limit Network Access.
+  > Monitor and Secure.
+  > Encryption.
+    -{Specific files or FDE, Encrypt network communication with VPN)
+- The Endpoint.
+  > EDR. Very Nice.
+    -{Signatures, Behavorial analysis, ML, process monitoring, lightweight agents}
+    -{Root cause analysis on the threat.}
+    -{Can immediately take action: isolate, quarantine, and rollback.}
+- Host based firewalls.
+- Host-based Intrusion Prevention Systems (HIPS).
+- Each time you install an outward facing service, ports and opened inside the OS.
+  > Close as many as possible except required.
+  > Each open port is a potential vulnerability.
+  > Control access with firewalls (best is NGFW: Next Generation Firewall).
+  > Applications with broad port ranges are terrible practice (ex: 0 through 65.535)
+  > Nmap, for scanning availiable port on a system.
+- Default password changes.
+  > Centralized A/MFA.
+- All Software contain Bugs.
+  > remove unused software.
 
 
+# Cloud Infrastructures.
+
+- Cloud responsiblity matrix.
+  > Iaas, Paas, Saas [Infrastructure, Platform, and Software... As a Service], On-Prem (On Premises) etc.
+  > Who is responsibility for security?
+  > Cloud Providers and matrix of responsibilites.
+- Hybrid Cloud (multiple clouds)
+  > Extra complexity, network protection mismatches, data leaks across sharing.
+- Third-party vendors, incident response, and monitoring constantly.
+- Infrastructure as a code, one program for different providers.
+- Serverless Architecture (FaaS: Function..)
+- Microservices and APIs
+  
 
 
 
