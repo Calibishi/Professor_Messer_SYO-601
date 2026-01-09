@@ -731,7 +731,53 @@ Control Types:
     -{ Usually, they obtain a list of users and hashes. Then it's just a matter of time and resources.}
 
 
-# 
+# Indicators of Compromise (IOC)
+
+- event that indicates an intrusion.
+  > Such as a large amount of traffic.
+  > Change to file hash values.
+  > Irregular internation traffic.
+  > Changes to DNS data.
+  > Uncommon Login Pattersn
+  > Spikes of read requests to certain files.
+  > Can't download security or update app.
+- Account is locked out not because of user.
+  > Help desk impersonation to get password reset.
+- Concurrent session usage (good way to check if there is activity somewhere else).
+  > Example with google mail account.
+- Authentication logs can be telling.
+  > Say a login from the US and the same user logs in from AU.
+- Resource consumption (Cyber-Detecting).
+  > Every attacker's attack has an equal and opposite reaction (Newton's 3rd Law).
+- Resource inaccessibility.
+  > Server may be down.
+  > Network disruption to coverup the actual exploit.
+  > Server outage, exploit gone wrong.
+  > Encrypted data (possible ransomware).
+- Out-of-Cycle Logging.
+  > Log everything you can.
+  > OS patch logs.
+  > Look out for obscure times for traffic flow.
+- Missing Logs.
+  > Attacker could delete logs, since logs are evidence.
+  > Set up notifications to indicate when logs are missing.
+- Private Information is published / documented.
+
+
+# Segmentation and Access Control
+
+- Segmenting the network.
+  > Into smaller events.
+  > Devices, VLANs, or virtual networks.
+  > Performance.
+  > Security, users should not talk directly to database servers.
+  > Compliance, mandated segmentation by Compliance company.
+- Access control lists (ACLs)
+  > Allow or disallow traffic.
+  > Restric access to network devices.
+
+
+
 
 
 
