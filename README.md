@@ -695,9 +695,43 @@ Control Types:
   > Server side, performs requests, HTML, PHP, transfer of money, uploading.
   > Cross-site request forgery, one-click attack, session riding (XSRF, CSRF (Sea Surf).
   > Solution could be a cryptographic token.
+  > Ex: Someone is already logged into bank website, then they click a malicious link while this page is open granting the attacker a way in.
+- Directory Traversal / Path Traversal
+  > '../../' is a check to see if that server is susceptible to these traversals.
 
 
+# Cryptographic Attacks
 
+- The key is.. well... the key.
+- If the algorithm is secure, the implementation of it is where the attacker will go.
+- Birthday Attack.
+  > Hash collision, same hash value for two different plaintexts.
+  > Brute Force.
+- Collisions.
+  > MD5 (Message Digest Algorithm 5) was compromised.
+- Downgrade Attack.
+  > SSL Striping.
+  > Attacker sits in the middle of the conversation.
+
+
+# Password Attacks
+
+- Some apps store passwords "in the clear" (huge risk).
+- Stop using any apps that do this.
+- All passwords should be stored as a hash.
+  > Hash - data as a fixed-length string of text.
+  > Every different input shouldn't have the same hash.
+  > Non-reverse-engineerable.
+  > Ex: SHA-256 hash (common)
+- Spraying Attack.
+  > Top 5 Passwords (on Wikipedia smh).
+  > Used on multiple users only a limited time to not trigger any alarms or lockouts.
+- Brute Force.
+  > Process: After receiving the hash, they start hashing various passwords to get a match.
+    -{ Usually, they obtain a list of users and hashes. Then it's just a matter of time and resources.}
+
+
+# 
 
 
 
