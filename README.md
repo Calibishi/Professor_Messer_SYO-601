@@ -676,7 +676,26 @@ Control Types:
   > Continuous updates and patches
   > Secure Computing habits.
 
-#
+
+# Application Attacks (1/9/26)
+
+- Injection Attacks.
+  > SQL, HTML, XML, LDAP.
+- Buffer Overflow.
+  > Overwriting a buffer with memory, spills over.
+  > Not simple, but powerful attack.
+- Replay Attack review.
+  > May start with an on-path attack.
+- Privilege escalation.
+  > Horizontal Privilege escalation, from user A to user B.
+- Data Execution Prevention
+- Address Space Layout randomization.
+- Cross-site requests.
+  > Client runs HTML, JavaScript often.
+  > Server side, performs requests, HTML, PHP, transfer of money, uploading.
+  > Cross-site request forgery, one-click attack, session riding (XSRF, CSRF (Sea Surf).
+  > Solution could be a cryptographic token.
+
 
 
 
