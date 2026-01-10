@@ -894,7 +894,7 @@ Control Types:
 - SCADA: Large scale IoT, basically.
 - RTOS (Real-Time OS).
   > Using a non-deterministic OS.
-  > Deterministic OS: in cars, military things, and industrial equipment.
+  > Deterministic OS: in cars, military things, and industrial equipment, in cars for ex: the brakes takeover when you press them..
   > Depends on what you need.
 - Embedded Systems.
 - High Availability (HA).
@@ -903,8 +903,54 @@ Control Types:
   > Expensive though.
 
 
-#
+# Infrastructure Considerations (1/10/26)
 
+- Availability.
+  > resources are up and running, only to the right people.
+- Resilience.
+  > Can you bounce back? How fast?
+- MTTR - Mean Time To Repair: Time it takes to replace the parts that are not available with ones that are available.
+- Cost.
+- Responsiveness.
+  > How quick? [Flashback of Goldman Sach's 15 minute rule]
+- Scalability.
+- Ease of deployment.
+  > Many moving parts: Web server, database, caching server, firewall, etc.
+  > Cloud based ifrastructure (CBI), Orchestration (building a CBI on demand instantly) / automation.
+- Risk Transference.
+  > Cybersecurity Insurance, popular with rising ransomware attacks.
+- "The only constant is change."
+  > Patch Availability.
+  > Patch early. Patch often.
+  > Test in an sandbox/testing environment, then deploy.
+- Inability to patch (crazy work in our age, depending on what one does).
+  > HVAC controls, Time Clocks.
+- Power ["We must turn on the Power!"]
+  > On-Prem Data Center versus providers.
+  > UPS - Uninterruptible Power Supply (for important matters such as life support in a hospital).
+  > Generators.
+- Compute Engine.
+  > May be 1 processor or multiple.
+
+
+# Secure Infrastructures
+
+- Device Placement.
+  > Differs in every network.
+  > Firewalls, Honeypots, jump servers, load balancers.
+- Security Zone.
+  > Each section of the network can be accessed in a specific zone.
+  > Untrusted  /  Trusted or Inside / Screened / Internet.
+- Attack surface [The Gold]
+  > How will the attackers come, if any?
+    {Doors, windowsn, App Code, Open ports, Auth process, Human error}.
+  > We—-of course-- want this minimized.
+  > Network Connectivity, better for this to be covered up as it runs through cables in the building.
+  > App level, Network-level encryption.
+    (IPsec tunnels, VPN connections.)
+
+
+  
 
 
 
