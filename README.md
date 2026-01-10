@@ -965,9 +965,26 @@ Control Types:
     {copy, Port mirror (SPAN), network tap, common in detection systems.}
 
 
-# 
+# Network Appliances
 
-
+- Jump servers.
+  > Access secure network zones from the outside.
+  > 2 steps: External client -> jump server -> then SSH/Tunnel/VPN into the Web Server.
+  > Big security concern if compromised.
+- Proxies: sits between the users and external network.
+  > Explicit Proxy.
+  > Transparent Proxy.
+  > Application Proxies (common), HTTP proxy, HTTPS, FTP, etc.
+  > NAT (proxy) - Network Address Translation.
+  > Forward/Internal Proxy, controls outbound traffic from user making request to the internet.
+  > Reverse Proxy.
+    {Can Pull from Cache, Controls inbound traffic from the Internet to the user}
+  > Open Proxy, significant security risk, 3rd party, uncontrolled.
+  > Load balancers.
+     {Active/active, load caching, content switching, SSL offload.
+    {Active/passive, some servers are active, others on standby if some fails.}
+  > Sensors and collecters.
+  > Security and Event Manager (SIEM)
 
 
 
