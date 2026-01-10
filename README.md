@@ -943,18 +943,29 @@ Control Types:
   > Untrusted  /  Trusted or Inside / Screened / Internet.
 - Attack surface [The Gold]
   > How will the attackers come, if any?
-    {Doors, windowsn, App Code, Open ports, Auth process, Human error}.
+    {Doors, Windows, App Code, Open ports, Auth process, Human error}.
   > We—-of course-- want this minimized.
   > Network Connectivity, better for this to be covered up as it runs through cables in the building.
   > App level, Network-level encryption.
     (IPsec tunnels, VPN connections.)
 
 
-  
+# Intrusion Prevention
+
+- IPS, designed to watch traffic in real time.
+- Intrusions.
+- Detection vs. Prevention
+  > Prevention stops it before it gets into network.
+  > Detection just alarms or alerts.
+- Failure modes.
+  > Fail-Open, data will continue to flow, even though security process will not operate.
+  > Fail-Closed, when system fails, data does not flow through.
+- Active monitoring, data can be blocked in real-time.
+  > Passive monitoring, IDS design, data cannot be blocked in real time, switch takes a copy of traffic and sends it to IPS.
+    {copy, Port mirror (SPAN), network tap, common in detection systems.}
 
 
-
-
+# 
 
 
 
