@@ -634,7 +634,7 @@ Control Types:
 
 # On-Path Attacks
 
-- Allows attacke to sit in the middle of two devices
+- Allows attacker to sit in the middle of two devices
   > Man-in-the-middle attack.
   > Both parties would have no idea, mostly.
   > ARP poisoning (spoofing), attacker must be on the same subnet.
