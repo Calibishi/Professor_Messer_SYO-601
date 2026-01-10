@@ -847,9 +847,33 @@ Control Types:
   > Extra complexity, network protection mismatches, data leaks across sharing.
 - Third-party vendors, incident response, and monitoring constantly.
 - Infrastructure as a code, one program for different providers.
-- Serverless Architecture (FaaS: Function..)
-- Microservices and APIs
-  
+- Serverless Architecture (FaaS: Function..), application instance with no server.
+- Microservices and APIs.
+  > Monolithic apps: one big application does everything.
+  > Application Programming Interfaces.
+    - scalable, resilient, containment is built in.
+    $ Rabbit hole on APIs: they just connect apps together.
+      + For ex, Uber uses 100 plus other apps through APIs.
+      + User Interface [UI] vs API
+      + Enpoints on the Back end puzzle piece.
+      + YT, API keys and Docs.
+      + Zapier, automations.
+
+
+# Network Infrastructures Concepts
+
+- Physical Isolation.
+  > Air Gaps between switches.
+- Logical segmentation with VLANs.
+- SDN (Softare Defined Networking):
+  > 3 Planes: Data, Control, and Management planes.
+- Infrastructure layer / Data plane - process network frames and packets.
+- Control plane/layer - routing tables, session tables, NAT tables
+- Application layer - Management, configure and manage the device, SSH, browser, API
+- How the physical architecture correlates to these 3 planes on the back of switch.
+
+
+# 
 
 
 
