@@ -873,10 +873,37 @@ Control Types:
 - How the physical architecture correlates to these 3 planes on the back of switch.
 
 
-# 
+# Other Infrastructure Concepts
+
+- Attacks can happen anywhere: even on-prem and in the cloud.
+- On-Prem: On site IT Team, expensive though, difficult to staff.
+  > Security changes can take time.
+- Centralized vs. Decentralized.
+- Virtualization.
+  > Each VM needs an OS.
+  > Infrastructure (physical) -> Hypervisors (manage VMs) -> VMs that run OS.
+- Versus Application Containers.
+  > Docker.
+  > Another way to run multiple applications on one device, except there is only one Host OS.
+- IoT: Internet of Things.
+  > Sensors like the ones in alarm systems.
+  > Home automation.
+  > Video Doorbells.
+  > Wearable Tech.
+  > Weak Defaults.
+- SCADA: Large scale IoT, basically.
+- RTOS (Real-Time OS).
+  > Using a non-deterministic OS.
+  > Deterministic OS: in cars, military things, and industrial equipment.
+  > Depends on what you need.
+- Embedded Systems.
+- High Availability (HA).
+  > Redundancy does NOT always mean available.
+  > In short, it's a backup. Like a backup firewall.
+  > Expensive though.
 
 
-
+#
 
 
 
