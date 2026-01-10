@@ -335,7 +335,7 @@ Control Types:
 - Using a website or server and compromising it.
 - The attacker could be find a commonly visited site that target uses and infect it.
 - Hence, it's like infecting a watering hole and poising those who drink from it.
-- Prevention: Defence-in-depth
+- Prevention: Defence-in-depth.
 
 
 # Other Social Engineering Techniques
@@ -389,7 +389,7 @@ Control Types:
 
 - Big target for attackers.
 - Pretty Complex.
-  > AKA more security vunerbilites since there's so much code.
+  > AKA more security vulnerabilites since there's so much code.
 - Patch Tuesday (Windows)
 - Best practice: Make sure you have a backup before downloading/updating/patching.
   > If updating multiple systems, use a testing environment and have backups.
@@ -446,7 +446,7 @@ Control Types:
 # Cloud-specific Vunerabilities
 
 - DoS - Denial of Service (DDos - Distributed...)
-  > an attack when you bombart a system, service, or network with an overflow of requests or traffic, making it unavailiable.
+  > An attack when you bombart a system, service, or network with an overflow of requests or traffic, making it unavailiable.
   > DDoS is just with multiple distibuted devices versus a single device.
 - Authentication bypass
 - Directory traversal
@@ -495,7 +495,7 @@ Control Types:
 
 # Zero-Day Vulnerabilities
 
-- Means unknown vulnerabilites that have not been patched/ methed of mitigation
+- Means unknown vulnerabilites that have not been patched/ method of mitigation
   > cve.mitre.org (Common Vulnerabilities and Exposures)
 
 
