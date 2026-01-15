@@ -987,11 +987,75 @@ Control Types:
   > Security and Event Manager (SIEM)
 
 
+# Port Security
+
+- Refers to indiviual interfaces on aswitch or connections to a wireless access point.
+- Username and password with wifi for ex.
+- EAP (Extensible Authenication Protocol)
+  > Authentication protocol.
+  > EAP integrates 802.1X [Port based Network Access Control (NAC), which prevents access to the network until authentication succeeds.
+    {Supplicant (User system), Authenticator, & Authentication Server.}
+
+
+# Firewall Types
+
+- Standard, control the traffic between two points, corporate control on outbound & inbound data, control of bad content and malware.
+- A network based firewall traditionally control traffic in OSI layer 4 (TCP or UDP port number).
+  > Next-Gen Firewalls (NGFW) can do this in OSI layer 7 (the Application layer).
+- Firewalls can also integrates VPNs, can operate as a router (layer 3 device), NAT (Network Address Transmission) functionality.
+- (Older firewalls) UTM - Unified Threat Management / Web security gateway.
+  > URL filter / content inspection / spam fileter, CSU/DSU, IDS/IPS, Firewall, Bandwidth shaper, VPN endpoint.
+  > Cons: Only operate at layer 4 (port numbers), many features tend to slow down the firewall.
+- NGFW - OSI Application Layer operation, making forwarding decisions.
+  > Also called Application layer gateway, Stateful multilayer inspection, Deep packet inspection.
+  > Full packet decoding, control traffic, who sent, what is sent, and where it should go.
+  > Intrusion Prevention System functionality.
+  > Content filtering (URL filtering, traffic control by category).
+- WAF (Web application firewall).
+  > Not like Next-Gen or UTMs, filters content based on input in web applications, like blocking SQL injection reaching the server.
+  > Can be used with Next-Gen firewalls (different traffic lookout).
+
+
+# Secure Communication
+
+- Virtual Private Networks
+  > Encrypts all private data going across a public network.
+  > Can be in hardware or software.
+  > Encrypted Tunnel, VPN Concentrator.
+    {Encrypted packets, IPsec Headers and Trailers.}
+  > SSL (Secure Sockets Layer) / TSL (Transport Layer Security) VPN.
+      {runs over TCP/443 (web server traffic)}.
+      {Almost no firewall issues.}
+      {Can be run from browser or a light VPN client.}
+- Site to Site IPsec VPN
+  > VPN concentrators on both sides.
+- SDN WAN (Software Defined Networking in a Wide Area Network)
+  > Data centers are now in the cloud many times vs. one central one on site.
+  > More efficient than just the cloud.
+- SASE - Secure Access Service Edge
+  > a "Next-Gen" VPN.
+  > SASE on all clients.
+  > sits between Users/Offices and Cloud services.
+- Picking the right secure choice can be tough.
+
+
+#
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
