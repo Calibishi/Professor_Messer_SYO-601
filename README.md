@@ -1039,9 +1039,18 @@ Control Types:
 - Picking the right secure choice can be tough.
 
 
+# Data Types and Classifications (1/16/26)
+
+- Data Types
+  > Regulated, managed by a third-party | Trade secrets, org's secret formulas | Intellectual Property | Legal Information | Financial Information
+  > Human-readable, Non-human readable (barcodes).
+- Classifying sensative data.
+  > And adding permissions, restricted network access.
+- Proprietary, property of an org, unique to an org, may have secrets.
+- Sensative, PII [Personally Identifiable information], PHI, Protected Health Information
+
+
 #
-
-
 
 
 
