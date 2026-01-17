@@ -1050,7 +1050,25 @@ Control Types:
 - Sensative, PII [Personally Identifiable information], PHI, Protected Health Information
 
 
-#
+# States of Data (1/17)
+
+- Data at rest: Hard drive, SSD (Solid State Drive, non-volatile memory), etc.
+- Whole disk / Database / File / Folder encryption.
+- Data in transit.
+  > Provide Network based protection, TLS.
+- Data in use.
+- Data sovereignty, GDPR (General Data Protection Regulation.
+- Geolocation, 802.11, mobile providers, GPS, to determine user location.
+
+
+# Protecting Data
+
+- Subnet and IP Address, locations.
+- Data is everywhere, storage drive, network, CPU.
+- Encode information (plain text) into unreadable data (Ciphertect).
+- Hashing Algorithms.
+- Obfuscation.
+- 
 
 
 
