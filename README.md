@@ -1068,9 +1068,19 @@ Control Types:
 - Encode information (plain text) into unreadable data (Ciphertect).
 - Hashing Algorithms.
 - Obfuscation.
-- 
+
+(1/29)
+
+- Obfuscation, take something easy to understand and make it super hard to understand.
+  -> Code Obfuscation, php, Interactive shell.
+- Masking, a type of obfuscation, oftens protects PII.
+  -> Substituting, shuffling, encrypting, etc.
+- Tokenization, takes sensative info and replaces it with a non-sensative placeholder (a real SSN for a fake one) as a temporary token.
+  -> Remote TOken Service Server.
+- Segementation.
 
 
+# Resiliency
 
 
 
