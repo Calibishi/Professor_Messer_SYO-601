@@ -1080,11 +1080,31 @@ Control Types:
 - Segementation.
 
 
-# Resiliency
+# Resiliency (1/30)
+
+- High Availability (HA).
+  -> having secondary devices or HA (always on and always available, but expensive).
+- Server Clustering, combining two or more servers.
+- Load balancing, load is distributed across multiple server that are often unaware of each other.
+- Site resiliency, recovery site is prepped, moving data centers for example after some disaster.
+- Hot site, two of everything, exact duplicate.
+- Cold site, empty building, no data (bring with you), no people (must bring).
+- Warm site, just enough to get going.
+- Geographic dispersion.
+- Platform diversity, vulnerabilities are usually plaform based and not common among multiple OSs.
+- Multi-cloud systems.
+- Continuity of operations planning (COOP), manual alternative, phone calls for transaction approval.
 
 
+ # Capacity Planning
+
+ - Match supply to the demand.
+ - People.
+ - Technology that can scale.
+ - Cloud based is easier to deploy and useful for unexpected capacity changes.
 
 
+# Recovery Testing
 
 
 
