@@ -1106,6 +1106,14 @@ Control Types:
 
 # Recovery Testing
 
+- scheduled test to see how well we can cover.
+- To minimize cost, you can do Tabletop excercises to plan out and make sure everyone knows the plan without buying much.
+- Fail over test. Made with redundant infrastructures.
+
+
+# Backups
+
+
 
 
 
