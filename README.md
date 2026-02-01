@@ -1104,7 +1104,7 @@ Control Types:
  - Cloud based is easier to deploy and useful for unexpected capacity changes.
 
 
-# Recovery Testing
+# Recovery Testing (2/1/26)
 
 - scheduled test to see how well we can cover.
 - To minimize cost, you can do Tabletop excercises to plan out and make sure everyone knows the plan without buying much.
@@ -1113,6 +1113,12 @@ Control Types:
 
 # Backups
 
+- Get a backup.
+- Always have backups.
+- Off site/ Onsite Backups.
+- Decide a routine schedule for backing up.
+  -> Weekly, Monthly, Yearly, etc.
+- Do not avoid the backup. [This should be the next buy lol.]
 
 
 
